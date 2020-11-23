@@ -1,0 +1,56 @@
+Problema 5
+Una empresa de comercialización de computadoras realiza el proceso de venta haciendo un descuento por tipo de cliente:  
+Si es cliente tipo 1 hay un descuento del 10% Si es cliente tipo 2 hay un descuento del 20%
+ En caso que sea otro tipo de cliente, no hay descuento. 
+Generar un proceso que permita ingresar 7 ventas: por cada venta preguntar los siguiente datos:
+
+Nombre del cliente
+Costo de la computadora (solo se vende una computadora por transacción)
+Tipo de cliente
+Presentar el siguiente reporte:
+
+Cliente tipo 1, compra computadora con precio $100 y el costo final a cancelar es $90
+
+Cliente tipo 1, compra computadora con precio $100 y el costo final a cancelar es $90
+
+Cliente tipo 1, compra computadora con precio $100 y el costo final a cancelar es $90
+
+Cliente tipo 1, compra computadora con precio $100 y el costo final a cancelar es $90
+
+Cliente tipo 1, compra computadora con precio $100 y el costo final a cancelar es $90
+
+Cliente tipo 1, compra computadora con precio $100 y el costo final a cancelar es $90
+
+Cliente tipo 1, compra computadora con precio $100 y el costo final a cancelar es $90
+1. inicio 
+2. contador, i[0,n] <-- 1
+3.porcentaje1, d[0,n] <-- 10
+4.porcentaje2, d[0,n] <-- 20
+5.descuento, d[0,n] 
+6.nombre x(200)[{1-9},{a-z},{A-Z}, {/}, {BS}]
+7. costoComputadora, d[0,n] 
+8.tipoCliente1, d[0,n] 
+9. tipoCliente2, d[0,n] 
+10.cadeanaFinal x(200)[{1-9},{a-z},{A-Z}, {/}, {BS}]<--- " "
+11.valorTotal, d[0,n] 
+12.escribir"nombre del cliente"
+13.leer nombre
+14.escribir "costo de la computadora"
+15.leer costo
+18. escribir"tipo de cliente"
+19. leer tipoCliente 
+20.Si tipo == 1 entonces
+21. porcentaje1 <-- costoComputadora * 0.1  //10%
+22.  valorTotal <-- costoComputadora - porcentaje1
+23.De lo contrario 
+24. si tipo == 2 entoces 
+25. porcentaje2 <-- costoComputadora * 0.2  //20%
+26. valorTotal<-- costoComputadora - porcentaje2
+27.fin  si 
+28.escribir" El valor total a pagar es : " + valorTotal
+29.fin
+
+
+
+
+
